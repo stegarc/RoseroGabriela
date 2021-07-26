@@ -2,10 +2,10 @@
 
 namespace RoseroGabriela
 {
-    class Program
+    public class Program
     {
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Plate plateNew = new Plate();
             Console.WriteLine("******Hello! Welcome to 'Pico & Placa' Predictor******\n");

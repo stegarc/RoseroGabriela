@@ -5,16 +5,18 @@ using System.Globalization;
 
 namespace RoseroGabriela
 {
-    class Plate
+    public class Plate
     {
         String plate;
         int dayPlate;
         String letterPlate;
         char[] chars = default;
         bool isValide = true;
+
+        //You can enter car's plate or motorcycle's plate without hyphen.
         public bool InputPlate()
         {
-            Console.Write("Enter the plate: ");
+            Console.Write("Enter the plate (without hyphen): ");
             plate = Console.ReadLine();
             chars = plate.ToCharArray();
             if (chars.Length >= 6 && (ValidationPlateCar().Equals(true) || ValidationPlateMoto().Equals(true)))
@@ -26,6 +28,8 @@ namespace RoseroGabriela
                 return isValide = false;
             }
         }
+
+        //Validation to car's plate Example: AAS425 or AWR14523
         private bool ValidationPlateCar()
         {
             var commonPart = Char.IsLetter(chars[0]) && Char.IsLetter(chars[1]) && Char.IsLetter(chars[2]) && Char.IsNumber(chars[3]) && Char.IsNumber(chars[4]) && Char.IsNumber(chars[5]);
@@ -54,6 +58,8 @@ namespace RoseroGabriela
             }
             return isValide = false;
         }
+
+        //Validation to motorcycle's plate. Example: AA253A
         private bool ValidationPlateMoto()
         {
             letterPlate = plate.Substring(0, 3);
@@ -73,6 +79,8 @@ namespace RoseroGabriela
                 return isValide = false;
             }
         }
+
+        //Enter & Validation Date. Example: 12/11/2020
         public bool InputDatePlate()
         {
             Console.Write("Enter the Date (dd/MM/yyyy): ");
@@ -91,9 +99,11 @@ namespace RoseroGabriela
                 return isValide = false;
             }
         }
+
+        //Enter & Validation Time. Example: 04:00 or 15:35 or 03:35 pm
         public bool InputTimePlate()
         {
-            Console.Write("Enter the time: ");
+            Console.Write("Enter the time (HH:mm): ");
             string timePlate = Console.ReadLine();
             DateTime d = DateTime.Parse(timePlate);
             TimeSpan time = TimeSpan.Parse(d.ToString("HH:mm:ss"));
@@ -105,6 +115,7 @@ namespace RoseroGabriela
             }
             return isValide = true;
         }
+
         public bool PicoPlacaPredictor()
         {
             if (ValidationPlateMoto().Equals(true) || chars.Length == 6)
@@ -117,6 +128,7 @@ namespace RoseroGabriela
             }
             return isValide = false;
         }
+
         public bool DaysCase(int length)
         {
             switch (chars.GetValue(length - 1))
