@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\source\\repos\\RoseroGabriela\\RoseroGabriela.csproj": {}
+    "G:\\RoseroGabriela\\RoseroGabriela.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\source\\repos\\RoseroGabriela\\RoseroGabriela.csproj": {
+    "G:\\RoseroGabriela\\RoseroGabriela.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\RoseroGabriela\\RoseroGabriela.csproj",
+        "projectUniqueName": "G:\\RoseroGabriela\\RoseroGabriela.csproj",
         "projectName": "RoseroGabriela",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\RoseroGabriela\\RoseroGabriela.csproj",
+        "projectPath": "G:\\RoseroGabriela\\RoseroGabriela.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\source\\repos\\RoseroGabriela\\obj\\",
+        "outputPath": "G:\\RoseroGabriela\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

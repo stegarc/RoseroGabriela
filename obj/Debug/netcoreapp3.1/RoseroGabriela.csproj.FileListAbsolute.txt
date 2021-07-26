@@ -11,3 +11,16 @@ C:\Users\gabri\source\repos\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriel
 C:\Users\gabri\source\repos\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.dll
 C:\Users\gabri\source\repos\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.pdb
 C:\Users\gabri\source\repos\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.genruntimeconfig.cache
+G:\RoseroGabriela\bin\Debug\netcoreapp3.1\RoseroGabriela.exe
+G:\RoseroGabriela\bin\Debug\netcoreapp3.1\RoseroGabriela.deps.json
+G:\RoseroGabriela\bin\Debug\netcoreapp3.1\RoseroGabriela.runtimeconfig.json
+G:\RoseroGabriela\bin\Debug\netcoreapp3.1\RoseroGabriela.runtimeconfig.dev.json
+G:\RoseroGabriela\bin\Debug\netcoreapp3.1\RoseroGabriela.dll
+G:\RoseroGabriela\bin\Debug\netcoreapp3.1\RoseroGabriela.pdb
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.csprojAssemblyReference.cache
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.AssemblyInfoInputs.cache
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.AssemblyInfo.cs
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.csproj.CoreCompileInputs.cache
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.dll
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.pdb
+G:\RoseroGabriela\obj\Debug\netcoreapp3.1\RoseroGabriela.genruntimeconfig.cache

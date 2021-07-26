@@ -17,7 +17,7 @@ namespace RoseroGabriela
             Console.Write("Enter the plate: ");
             plate = Console.ReadLine();
             chars = plate.ToCharArray();
-            if (ValidationPlateCar().Equals(true) || ValidationPlateMoto().Equals(true))
+            if (chars.Length>=6 && (ValidationPlateCar().Equals(true) || ValidationPlateMoto().Equals(true)))
             {
                 return isValide = true;
             }
@@ -87,20 +87,20 @@ namespace RoseroGabriela
             }
             else
             {
-                Console.Write("\nInvalid date");
+                Console.Write("Invalid date: ");
                 return isValide = false;
             }
         }
         public bool InputTimePlate()
         {
-            Console.Write("\nEnter the time: ");
+            Console.Write("Enter the time: ");
             string timePlate = Console.ReadLine();
             DateTime d = DateTime.Parse(timePlate);
             TimeSpan time = TimeSpan.Parse(d.ToString("HH:mm:ss"));
             if (time >= new TimeSpan(07, 00, 00) && time <= new TimeSpan(09, 30, 00) || time >= new TimeSpan(16, 00, 00) && time <= new TimeSpan(19, 30, 00))
             {
 
-                Console.Write("\nInvalid time");
+                Console.Write("Invalid time: ");
                 return isValide = false;
             }
             return isValide = true;
