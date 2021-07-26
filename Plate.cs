@@ -17,7 +17,7 @@ namespace RoseroGabriela
             Console.Write("Enter the plate: ");
             plate = Console.ReadLine();
             chars = plate.ToCharArray();
-            if (chars.Length>=6 && (ValidationPlateCar().Equals(true) || ValidationPlateMoto().Equals(true)))
+            if (chars.Length >= 6 && (ValidationPlateCar().Equals(true) || ValidationPlateMoto().Equals(true)))
             {
                 return isValide = true;
             }
@@ -119,7 +119,7 @@ namespace RoseroGabriela
         }
         public bool DaysCase(int length)
         {
-            switch (chars.GetValue(length-1))
+            switch (chars.GetValue(length - 1))
             {
                 case 1:
                 case 2:
@@ -153,7 +153,6 @@ namespace RoseroGabriela
                     }
                     return isValide = false;
                     break;
-                    break;
                 case 9:
                 case 0:
                     if (dayPlate == 5)
@@ -161,7 +160,6 @@ namespace RoseroGabriela
                         return isValide = true;
                     }
                     return isValide = false;
-                    break;
                     break;
                 default:
                     return isValide = true;

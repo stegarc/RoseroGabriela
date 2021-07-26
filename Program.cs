@@ -14,9 +14,9 @@ namespace RoseroGabriela
                 while (plateNew.InputPlate().Equals(true) && plateNew.InputDatePlate().Equals(true) && plateNew.InputTimePlate().Equals(true))
                 {
                     if (plateNew.PicoPlacaPredictor().Equals(true))
-                        Console.WriteLine("You can be on the road!");
+                        Console.WriteLine("You can be on the road!\n");
                     else
-                        Console.WriteLine("You cannot be on the road!");
+                        Console.WriteLine("You cannot be on the road!\n");
                 }
                 Console.WriteLine("Invalid format!");
             }
